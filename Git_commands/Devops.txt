@@ -1,0 +1,144 @@
+                                                                  Devops
+
+
+
+
+Introduction TO DevOps 
+
+
+SDLC--- Software Development Life Cycle
+
+
+*It has two models:- *Water fall  
+                     *Agile Model
+
+
+
+Water Fall Model
+
+---->Requirement and Gathering Analysis
+---->Design, Planning
+---->Implementation coding, Development
+---->Test
+---->Deploy, Release, Delivery
+---->Maintenance, Monitoring, Feedback
+
+
+Disadvantages:-
+*It is not suitable for complex projects, where changes are in high frequency
+*Time consuming
+*until unless current stage completed, we can't go to next stage.at the same time we cannot go back to previous stage.
+*in order to address these issues or limitations, we have a model called "Agile methodology".
+
+Agile Methodology
+
+---->In the Agile methodology each project is broken up into a several "Iterations".
+---->All Iterations have specific time. 
+---->At the end of each iteration a working product should be delivered.
+---->In each iteration at the end of the each iteration there will be "MVP-minimal viable product". 
+
+
+Limitation for Agile:-
+
+In between dev team and ops team there will be platform dependency or environmental dependency(lack of collaboration). 
+EXAMPLE:- file-1.0 version          File 2.0 version
+          config:
+          java-1.8 version
+          Tomcat-9
+          Maven-4 
+
+To overcome this issues we have a DevOps which is combination of "Development Team" and "Operation Team"
+
+
+Development without DevOps culture:
+-->Release and deploy without mismatches
+-->unpredictable issues
+-->blame games
+
+Development with DevOps culture:-
+-->Streamline deliveries 
+-->Team were in collaboration 
+-->Continues monitoring and feedback
+
+DevOps in Real life
+Dev Team:
+-plan
+-code
+-build
+-test
+Ops Team:
+-Release
+-Deploy
+-Operations
+-Monitor
+
+
+DevOps: What DevOps is NOT
+-->DevOps is not a role, person or organisation
+-->DevOps is not a separate team
+-->DevOps is not a product or tool
+-->DevOps is not about writing the scripts or implementing tools
+
+What is DevOps:-
+ DevOps is a practice that allows a single team to manage a entire development life cycle. that is development, testing, deployment and monitoring.
+         code---->production
+
+What does DevOps:-
+It integrates developers and operation team.
+Improves collaboration and productivity by(Automating the infrastructure)
+                                          (Automating the work flows)
+                                          (Continuously measuring application performance).
+
+Skills of a DevOps Engineers
+
+Tools:-
+#Version control system--Git
+#Continuous Integration--Jenkins
+#containaration or virtualization--Docker
+#Configaration Management--Ansible
+#Monitoring--Prometheus and Grafana
+
+Networking Skills:
+General networking skills-Establishing connection between the containers or containers orchestration.
+Others Skills:-
+-->people skills
+-->process skill
+-->Customer skill and empathy
+-->Cloud awareness
+
+DevOps Life Cycle:-
+
+PLAN:-First stage of DevOps cycle where you can plan, track, visualise and summarise your project before working or starting it.
+          EXAMPLE:- Tools for planning 
+                    *Jira
+                    *Trello
+                    *Trecentis.
+CODE:-Second stage of DevOps cycle where the develops write their code.
+          EXAMPLE:-Git, Git Hub, Bit bucket, Git lab.
+BUILD:-Build is a pre-release version and is defined by build number, rather then by release number.
+          EXAMPLE:-Apache Maven
+TEST:-Process of executing automated test as a part of the software delivery pipe line in order to obtain feedback on the business risks associated with 
+      a software release as rapidly as possible.
+          EXAMPLE:- *J meter
+                    *selenium
+                    *J unit
+RELEASE:-This phase helps to integrate code into a shade repository using which you detect and locate errors quickly and easily.
+          EXAMPLE:- *Bamboo
+                    *Git lab
+                    *Travis c1
+DEPLOY:- Manage and maintain development and deployment of software systems and servers in any computational environment.
+          EXAMPLE:- *Ansible
+                    *Aws
+                    *CHEF
+OPERATE:-This phase is to keep the system upgraded with the latest code(update)
+          EXAMPLE:- *Ansible 
+                    *CHEF
+                    *Aws
+MONITORING:-It ensures that application is performing as desire and the environment is stable. It quickly determines when a service is unavailable and 
+             understanding the under laying the causes.
+           EXAMPLE:-*Prometheus
+                    *Grafana 
+                    *splunk
+                    *Wagios
+                    *Sensu           
+             
